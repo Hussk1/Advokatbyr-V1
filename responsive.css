@@ -1,0 +1,945 @@
+/* ==================== Essentionals ==================== */
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        /* Adjust max width for medium-large screens */
+        width: 95%;
+        /* Increase width percentage for medium-large screens */
+    }
+
+    .btn {
+        padding: 18px 36px;
+        /* Adjust padding for medium-large screens */
+        font-size: 0.9rem;
+        /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 800px;
+        /* Adjust max width for tablets */
+        width: 95%;
+        /* Increase width percentage for tablets */
+    }
+
+    .btn {
+        padding: 15px 30px;
+        /* Adjust padding for tablets */
+        font-size: 0.85rem;
+        /* Smaller font size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+        /* Adjust max width for smaller tablets and large phones */
+        width: 95%;
+        /* Increase width percentage for smaller tablets and large phones */
+    }
+
+    .btn {
+        padding: 12px 25px;
+        /* Adjust padding for smaller tablets and large phones */
+        font-size: 0.8rem;
+        /* Smaller font size for smaller tablets and large phones */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        /* Full width for small phones */
+        width: 100%;
+        /* Full width for small phones */
+        padding: 0 10px;
+        /* Less padding for small screens */
+    }
+
+    .btn {
+        padding: 10px 20px;
+        /* Adjust padding for small phones */
+        font-size: 0.75rem;
+        /* Even smaller font size for small phones */
+    }
+}
+
+/* ==================== Navbar ==================== */
+
+@media (max-width: 1200px) {
+    .burger {
+        width: 1.4rem;
+        height: 1rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .brand {
+        font-size: 1.4rem;
+    }
+
+    .menu-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .burger {
+        width: 1.2rem;
+        height: 0.9rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .brand {
+        font-size: 1.2rem;
+    }
+
+    .menu-link {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    .menu {
+        padding: 3rem 0 2rem;
+    }
+
+    .menu-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .burger {
+        width: 1.2rem;
+        height: 0.9rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .menu-link {
+        font-size: 0.75rem;
+    }
+}
+
+/* ==================== Hero ==================== */
+
+@media (max-width: 1200px) {
+    .hero-wrap h1 {
+        font-size: 3.5rem;
+        /* Adjust for medium-large screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-wrap h1 {
+        font-size: 3rem;
+        /* Adjust for tablets */
+    }
+
+    .widget-item {
+        font-size: 0.7rem;
+        /* Slightly smaller font for medium screens */
+    }
+
+    .widget-icon {
+        font-size: 20px;
+        /* Slightly smaller icons */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-wrap h1 {
+        font-size: 2.5rem;
+        /* Adjust for smaller tablets and large phones */
+    }
+
+    .widget-item {
+        font-size: 0.6rem;
+        /* Smaller font for smaller screens */
+    }
+
+    .widget-icon {
+        font-size: 18px;
+        /* Smaller icons */
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-wrap h1 {
+        font-size: 2rem;
+        /* Adjust for small phones */
+    }
+
+    .widget-item {
+        font-size: 0.5rem;
+        /* Even smaller font for small screens */
+        margin: 0 10px;
+        /* Less margin for small screens */
+    }
+
+    .widget-icon {
+        font-size: 16px;
+        /* Smaller icons for small screens */
+        margin: 0 10px;
+        /* Less margin for small screens */
+    }
+}
+
+/* ==================== Om Oss ==================== */
+
+@media (max-width: 1200px) {
+
+    .about-infobox {
+        margin-top: 3rem;
+    }
+
+    .infobox {
+        padding: 10px;
+    }
+
+    .infobox-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .about .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 1rem;
+    }
+
+    .about-content {
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .about-infobox {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .infobox {
+        width: 100%;
+        max-width: 300px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .infobox-icon {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 0.875rem;
+    }
+
+    .about-content .btn {
+        padding: 8px 16px;
+        font-size: 0.875rem;
+    }
+
+    .about-infobox {
+        margin-top: 2rem;
+    }
+
+    .infobox {
+        padding: 10px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .about-content {
+        padding: 0;
+    }
+
+    .about-content .btn {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+    }
+
+    .infobox-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+/* ==================== Om Oss Mer ==================== */
+
+@media (max-width: 1200px) {
+    .about-more .container {
+        padding: 60px 2rem;
+        /* Adjust padding for medium screens */
+    }
+
+    .about-more .about-content {
+        padding-left: 2rem;
+        /* Adjust padding for medium screens */
+    }
+
+    .about-more .about-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-more .about-content p {
+        font-size: 0.9rem;
+    }
+
+    .about-more .about-content .btn {
+        padding: 8px 16px;
+    }
+
+    .about-more-img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-more .container {
+        flex-direction: column;
+        /* Stack content and image vertically */
+        align-items: center;
+        padding: 40px 1.5rem;
+        /* Further reduced padding for tablets */
+    }
+
+    .about-more .about-content {
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .about-more .about-content h1 {
+        font-size: 2rem;
+    }
+
+    .about-more .about-content p {
+        font-size: 0.85rem;
+    }
+
+    .about-more .about-content .btn {
+        padding: 6px 12px;
+    }
+
+    .about-more-img {
+        width: 80%;
+    }
+
+    .about-more-img img {
+        max-width: 100%;
+        /* Ensure the image does not exceed its container */
+    }
+}
+
+@media (max-width: 768px) {
+    .about-more .container {
+        padding: 30px 1rem;
+        /* Adjust padding for smaller tablets and large phones */
+    }
+
+    .about-more .about-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .about-more .about-content p {
+        font-size: 0.8rem;
+    }
+
+    .about-more .about-content .btn {
+        padding: 6px 12px;
+        margin-top: 1rem;
+    }
+
+    .about-more-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-more .container {
+        padding: 20px 1rem;
+        /* Adjust padding for small phones */
+    }
+
+    .about-more .about-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-more .about-content p {
+        font-size: 0.75rem;
+    }
+
+    .about-more .about-content .btn {
+        padding: 5px 10px;
+        font-size: 0.875rem;
+    }
+
+    .about-more-img {
+        width: 100%;
+    }
+
+    .about-more-img img {
+        width: 100%;
+        /* Ensure the image fits within its container */
+    }
+}
+
+/* ==================== Tjänster ==================== */
+
+@media (max-width: 1200px) {
+    .service {
+        padding: 180px 0;
+    }
+
+    .cards {
+        flex: 1 1 calc(50% - 20px);
+        /* Two cards per row */
+    }
+
+    .cards h3 {
+        font-size: 1.5rem;
+        /* Adjust heading size */
+    }
+
+    .cards p {
+        font-size: 0.9rem;
+        /* Adjust paragraph size */
+    }
+
+    .service .widget h1 {
+        font-size: 2.5rem;
+        /* Adjust font size for h1 */
+        line-height: 1.2;
+        /* Adjust line height for better spacing */
+    }
+}
+
+@media (max-width: 992px) {
+    .service {
+        padding: 140px 0;
+    }
+
+    .cards {
+        flex: 1 1 calc(50% - 20px);
+        /* Two cards per row */
+    }
+
+    .cards h3 {
+        font-size: 1.4rem;
+        /* Adjust heading size */
+    }
+
+    .cards p {
+        font-size: 0.85rem;
+        /* Adjust paragraph size */
+    }
+
+    .service .widget h1 {
+        font-size: 2rem;
+        /* Adjust font size for h1 */
+        line-height: 1.3;
+        /* Adjust line height for better spacing */
+    }
+}
+
+@media (max-width: 768px) {
+    .service {
+        padding: 100px 0;
+    }
+
+    .cards {
+        flex: 1 1 100%;
+        /* Full-width cards */
+        margin: 0;
+        /* Remove margins */
+    }
+
+    .cards h3 {
+        font-size: 1.3rem;
+        /* Adjust heading size */
+    }
+
+    .cards p {
+        font-size: 0.8rem;
+        /* Adjust paragraph size */
+    }
+
+    .service .widget h1 {
+        font-size: 1.75rem;
+        /* Adjust font size for h1 */
+        line-height: 1.4;
+        /* Adjust line height for better spacing */
+    }
+}
+
+@media (max-width: 576px) {
+    .service {
+        padding: 80px 0;
+    }
+
+    .cards {
+        flex: 1 1 100%;
+        /* Full-width cards */
+        margin: 0;
+        /* Remove margins */
+    }
+
+    .cards h3 {
+        font-size: 1.2rem;
+        /* Adjust heading size */
+    }
+
+    .cards p {
+        font-size: 0.75rem;
+        /* Adjust paragraph size */
+    }
+
+    .service .widget h1 {
+        font-size: 1.5rem;
+        /* Adjust font size for h1 */
+        line-height: 1.5;
+        /* Adjust line height for better spacing */
+    }
+}
+
+/* ==================== Process ==================== */
+
+@media (max-width: 1200px) {
+    .process-block h1 {
+        font-size: 2rem;
+        /* Reduce font size for medium screens */
+    }
+
+    .process-block h3 {
+        font-size: 1.25rem;
+        /* Reduce font size for medium screens */
+    }
+
+    .process-block p {
+        font-size: 0.9rem;
+        /* Reduce font size for medium screens */
+        margin-top: 30px;
+        /* Adjust margin for medium screens */
+    }
+
+    .process-content {
+        gap: 20px;
+        /* Adjust gap for medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .process-block h1 {
+        font-size: 1.75rem;
+        /* Further reduce font size for smaller screens */
+    }
+
+    .process-block h3 {
+        font-size: 1.125rem;
+        /* Further reduce font size for smaller screens */
+    }
+
+    .process-block p {
+        font-size: 0.85rem;
+        /* Further reduce font size for smaller screens */
+        margin-top: 20px;
+        /* Adjust margin for smaller screens */
+    }
+
+    .process-content {
+        gap: 20px;
+        /* Adjust gap for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .process-block h1 {
+        font-size: 1.5rem;
+        /* Reduce font size for small screens */
+    }
+
+    .process-block h3 {
+        font-size: 1rem;
+        /* Reduce font size for small screens */
+    }
+
+    .process-block p {
+        font-size: 0.8rem;
+        /* Reduce font size for small screens */
+        margin-top: 15px;
+        /* Adjust margin for small screens */
+    }
+
+    .process-content {
+        grid-template-columns: 1fr;
+        /* Single column layout for small screens */
+        gap: 15px;
+        /* Adjust gap for small screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .process-block h1 {
+        font-size: 1.25rem;
+        /* Further reduce font size for very small screens */
+    }
+
+    .process-block h3 {
+        font-size: 0.875rem;
+        /* Further reduce font size for very small screens */
+    }
+
+    .process-block p {
+        font-size: 0.75rem;
+        /* Further reduce font size for very small screens */
+        margin-top: 10px;
+        /* Adjust margin for very small screens */
+    }
+
+    .process-content {
+        gap: 10px;
+        /* Adjust gap for very small screens */
+        padding: 0;
+        /* Remove extra padding */
+    }
+}
+
+/* ==================== Team ==================== */
+
+@media (max-width: 1200px) {
+    .team-container {
+        padding: 100px 0;
+    }
+
+    .team-cards {
+        flex: 1 1 300px;
+        /* Increase minimum width of cards */
+    }
+
+    .team-cards h3 {
+        font-size: 1.2rem;
+    }
+
+    .team-cards p {
+        font-size: 1rem;
+    }
+
+    .team-cards img {
+        max-width: 280px;
+        /* Adjust max-width of images */
+    }
+
+    .team .widget h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .team-container {
+        padding: 80px 0;
+    }
+
+    .team-cards {
+        flex: 1 1 250px;
+        /* Increase flexibility for smaller screens */
+    }
+
+    .team-cards img {
+        max-width: 250px;
+        /* Adjust max-width of images */
+    }
+
+    .team .widget h1 {
+        font-size: 2rem;
+        /* Reduce font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .team-container {
+        padding: 60px 0;
+    }
+
+    .team-cards {
+        flex: 1 1 220px;
+        /* Increase flexibility for smaller screens */
+        margin: 10px;
+        /* Reduce margin for smaller screens */
+    }
+
+    .team-cards img {
+        max-width: 200px;
+        /* Adjust max-width of images */
+    }
+
+    .team .widget h1 {
+        font-size: 1.8rem;
+        /* Reduce font size */
+    }
+}
+
+@media (max-width: 576px) {
+    .team-container {
+        padding: 40px 0;
+    }
+
+    .team-cards {
+        flex: 1 1 100%;
+        /* Stack cards vertically */
+        margin: 5px;
+        /* Further reduce margin */
+    }
+
+    .team-cards img {
+        max-width: 180px;
+        /* Adjust max-width of images */
+    }
+
+    .team .widget h1 {
+        font-size: 1.6rem;
+        /* Reduce font size */
+    }
+}
+
+/* ==================== Contact ==================== */
+
+@media (max-width: 1200px) {
+    .contact {
+        padding: 100px;
+        /* Adjust padding for medium screens */
+    }
+
+    .contact .container {
+        padding: 80px;
+        /* Adjust padding inside the container */
+    }
+}
+
+@media (max-width: 992px) {
+    .contact {
+        padding: 80px;
+        /* Adjust padding for tablets */
+    }
+
+    .contact .container {
+        padding: 60px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-row {
+        flex-direction: column;
+        /* Stack form fields vertically on smaller screens */
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        /* Adjust spacing between fields */
+    }
+
+    .contact-top h1 {
+        font-size: 2.2rem;
+        /* Slightly smaller for medium screens */
+    }
+
+    .contact-top p {
+        font-size: 1rem;
+        /* Slightly smaller for medium screens */
+    }
+
+    .contact .container {
+        padding: 100px;
+    }
+
+    .contact-top h1 {
+        font-size: 1.8rem;
+        /* Smaller font size for tablets */
+    }
+
+    .contact-top p {
+        font-size: 0.9rem;
+        /* Smaller font size for tablets */
+    }
+
+    .contact .container {
+        padding: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 60px;
+        /* Adjust padding for smaller tablets and large phones */
+    }
+
+    .contact .container {
+        padding: 40px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+        /* Smaller font size for form inputs */
+    }
+
+    .contact-top h1 {
+        font-size: 1.6rem;
+        /* Smaller font size for smaller tablets */
+    }
+
+    .contact-top p {
+        font-size: 0.85rem;
+        /* Smaller font size for smaller tablets */
+    }
+
+    .contact .container {
+        padding: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact {
+        padding: 40px;
+        /* Adjust padding for small screens */
+    }
+
+    .contact .container {
+        padding: 20px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 12px;
+        /* Smaller font size for very small screens */
+        padding: 12px;
+        /* Adjust padding inside form inputs */
+    }
+
+    button {
+        padding: 8px 16px;
+        /* Adjust button size for small screens */
+        font-size: 14px;
+        /* Adjust font size for button text */
+    }
+
+    .contact-top h1 {
+        font-size: 1.4rem;
+        /* Smaller font size for phones */
+    }
+
+    .contact-top p {
+        font-size: 0.75rem;
+        /* Smaller font size for phones */
+    }
+
+    .form-row {
+        flex-direction: column;
+        /* Stack form fields vertically on small screens */
+        gap: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+}
+
+/* ==================== Footer ==================== */
+
+@media (max-width: 992px) {
+
+    .footer-cards {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        margin-bottom: 30px;
+        /* Adjust margin for smaller screens */
+    }
+
+    .footer-content p {
+        font-size: 0.85rem;
+        /* Reduce font size for small screens */
+    }
+
+    .footer-cards {
+        grid-template-columns: repeat(1, 1fr);
+        /* 1 column for small screens */
+    }
+}
+
+@media (max-width: 576px) {
+
+    .footer-square {
+        padding: 5px;
+        /* Reduce padding for very small screens */
+    }
+
+    .footer-square .social-icon {
+        font-size: 1.5rem;
+        /* Adjust icon size for very small screens */
+        margin-bottom: 10px;
+        /* Reduced space between icon and text */
+    }
+}
+
+/* ==================== Back to top btn ==================== */
+
+@media (max-width: 1024px) {
+    #topBtn {
+        padding: 12px;
+        font-size: 1rem;
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #topBtn {
+        padding: 10px;
+        font-size: 0.9rem;
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #topBtn {
+        padding: 8px;
+        font-size: 0.8rem;
+        right: 5px;
+        bottom: 5px;
+    }
+}
